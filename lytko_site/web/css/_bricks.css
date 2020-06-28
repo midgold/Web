@@ -1,0 +1,151 @@
+.brick, .thermostat_info .target_degree_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.small_wtih_cb, .thermostat, .thermostat_info .target_degree_container, .thermostat_info .degree, .thermostat_info .btn_temp_container {
+  display: flex;
+  flex-direction: column; }
+
+.bricks_container {
+  margin: 10px 5px; }
+
+.brick {
+  background-color: #2f2f2f;
+  border-radius: 3px;
+  display: flex;
+  color: white;
+  height: 100%;
+  width: 100%; }
+
+.mobile_brick {
+  height: auto;
+  width: 33%; }
+
+.large_brick {
+  width: 30rem;
+  height: 206px; }
+
+.large_p {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0; }
+
+.small_brick {
+  width: 140px;
+  height: 98px; }
+  .small_brick .info {
+    font-size: 48px;
+    font-weight: 300; }
+
+.small_wtih_cb {
+  position: relative; }
+  .small_wtih_cb p {
+    position: absolute;
+    top: 10px;
+    font-weight: 300;
+    font-size: 12px; }
+
+.small_p {
+  font-weight: bold;
+  margin: 0;
+  font-size: 18px; }
+
+.thermostat {
+  position: relative;
+  justify-content: space-around; }
+
+.thermostat_header {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 10px;
+  font-weight: 300;
+  width: 100%; }
+
+.thermostat_info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center; }
+  .thermostat_info .target_degree {
+    font-size: 2.5rem;
+    font-weight: 300; }
+  .thermostat_info .H_btn {
+    font-size: 3rem;
+    color: #CB3939; }
+  .thermostat_info .current_degree_container {
+    display: flex; }
+  .thermostat_info .current_degree {
+    font-size: 12rem;
+    font-weight: 300; }
+  .thermostat_info .degree {
+    justify-content: center; }
+    .thermostat_info .degree span {
+      font-size: 4rem;
+      font-weight: 300;
+      line-height: 4rem;
+      margin-top: 4rem; }
+
+.indicator {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #282828;
+  background-color: #27AFE9; }
+
+.medium_brick {
+  width: 280px;
+  height: 98px; }
+
+.tgl {
+  display: none; }
+  .tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+    box-sizing: border-box; }
+    .tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+      background: none; }
+  .tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none; }
+    .tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+      position: relative;
+      display: block;
+      content: "";
+      width: 50%;
+      height: 100%; }
+    .tgl + .tgl-btn:after {
+      left: 0; }
+    .tgl + .tgl-btn:before {
+      display: none; }
+  .tgl:checked + .tgl-btn:after {
+    left: 50%; }
+
+.tgl-ios + .tgl-btn {
+  background: #282828;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all .4s ease; }
+  .tgl-ios + .tgl-btn:after {
+    border-radius: 2em;
+    background: #fbfbfb;
+    transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08); }
+  .tgl-ios + .tgl-btn:hover:after {
+    will-change: padding; }
+  .tgl-ios + .tgl-btn:active {
+    box-shadow: inset 0 0 0 2em #e8eae9; }
+    .tgl-ios + .tgl-btn:active:after {
+      padding-right: .8em; }
+.tgl-ios:checked + .tgl-btn {
+  background: #27AFE9; }
+  .tgl-ios:checked + .tgl-btn:active {
+    box-shadow: none; }
+    .tgl-ios:checked + .tgl-btn:active:after {
+      margin-left: -.8em; }
+
+/*# sourceMappingURL=_bricks.css.map */

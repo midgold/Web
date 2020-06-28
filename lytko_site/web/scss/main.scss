@@ -1,0 +1,23 @@
+@import 'bricks';
+$dark: #282828;
+$gray: #2f2f2f;
+$blue: #27AFE9;
+
+body {
+  background-color: $dark;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  padding: 0
+}
+
+nav {
+  background-color: $gray;
+  color: white
+}
+p {
+  margin: 0;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #2f2f2f;
+}
