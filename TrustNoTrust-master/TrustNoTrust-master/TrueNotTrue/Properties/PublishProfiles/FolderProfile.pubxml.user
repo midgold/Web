@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\MidGo\Desktop\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>06/26/2018 02:03:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/15/2017 13:12:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>01/13/2014 16:11:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>01/13/2014 16:11:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>01/13/2014 16:11:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 03:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 03:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/TrueNotTrue.dll">
+      <publishTime>03/23/2019 15:55:13</publishTime>
+    </File>
+    <File Include="bin/TrueNotTrue.pdb">
+      <publishTime>03/23/2019 15:55:13</publishTime>
+    </File>
+    <File Include="Content/animate.css">
+      <publishTime>03/03/2019 18:21:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/20/2018 14:51:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/20/2018 14:51:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap4.min.css">
+      <publishTime>07/20/2018 14:51:52</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Clubs.svg">
+      <publishTime>02/23/2019 19:01:11</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Clubs_anim.svg">
+      <publishTime>03/03/2019 16:46:50</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Diamonds.svg">
+      <publishTime>03/03/2019 16:38:27</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Diamonds_anim.svg">
+      <publishTime>03/03/2019 16:46:59</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Hearts.svg">
+      <publishTime>02/27/2019 22:05:03</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Hearts_anim.svg">
+      <publishTime>03/03/2019 16:47:10</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Spades.svg">
+      <publishTime>02/18/2019 18:38:52</publishTime>
+    </File>
+    <File Include="Content/Cards/10_of_Spades_anim.svg">
+      <publishTime>03/03/2019 16:44:01</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Clubs.svg">
+      <publishTime>02/27/2019 22:03:31</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:07:33</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Diamonds.svg">
+      <publishTime>02/27/2019 22:03:48</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:08:07</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Hearts.svg">
+      <publishTime>02/18/2019 17:44:42</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:08:53</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Spades.svg">
+      <publishTime>02/18/2019 17:45:16</publishTime>
+    </File>
+    <File Include="Content/Cards/2_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:09:26</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Clubs.svg">
+      <publishTime>02/27/2019 22:04:46</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:09:56</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Diamonds.svg">
+      <publishTime>02/18/2019 17:50:42</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:10:31</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Hearts.svg">
+      <publishTime>02/18/2019 17:51:41</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:10:55</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Spades.svg">
+      <publishTime>02/18/2019 17:52:48</publishTime>
+    </File>
+    <File Include="Content/Cards/3_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:11:50</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Clubs.svg">
+      <publishTime>02/18/2019 17:55:42</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:15:00</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Diamonds.svg">
+      <publishTime>02/18/2019 17:56:50</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:15:22</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Hearts.svg">
+      <publishTime>02/18/2019 17:58:15</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:15:42</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Spades.svg">
+      <publishTime>02/18/2019 18:09:01</publishTime>
+    </File>
+    <File Include="Content/Cards/4_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:16:05</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Clubs.svg">
+      <publishTime>02/18/2019 18:01:55</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:16:26</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:02:51</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:16:49</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Hearts.svg">
+      <publishTime>02/18/2019 18:03:37</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:17:07</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Spades.svg">
+      <publishTime>02/18/2019 18:06:35</publishTime>
+    </File>
+    <File Include="Content/Cards/5_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:17:30</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Clubs.svg">
+      <publishTime>02/18/2019 18:13:58</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:17:52</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:11:33</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:18:27</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Hearts.svg">
+      <publishTime>02/18/2019 18:12:22</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:18:46</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Spades.svg">
+      <publishTime>02/18/2019 18:14:21</publishTime>
+    </File>
+    <File Include="Content/Cards/6_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:19:17</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Clubs.svg">
+      <publishTime>02/18/2019 18:16:48</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:19:38</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:17:34</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:20:00</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Hearts.svg">
+      <publishTime>02/18/2019 18:18:24</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:20:27</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Spades.svg">
+      <publishTime>02/18/2019 18:23:49</publishTime>
+    </File>
+    <File Include="Content/Cards/7_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:20:51</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Clubs.svg">
+      <publishTime>02/18/2019 18:26:31</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:28:54</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Diamonds.svg">
+      <publishTime>03/04/2019 22:22:34</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:29:07</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Hearts.svg">
+      <publishTime>02/18/2019 18:28:08</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:29:31</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Spades.svg">
+      <publishTime>02/18/2019 18:29:16</publishTime>
+    </File>
+    <File Include="Content/Cards/8_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:29:51</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Clubs.svg">
+      <publishTime>02/18/2019 18:31:10</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:27:02</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:32:08</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:30:25</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Hearts.svg">
+      <publishTime>02/18/2019 18:33:06</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:31:14</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Spades.svg">
+      <publishTime>02/18/2019 18:34:05</publishTime>
+    </File>
+    <File Include="Content/Cards/9_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:31:30</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Clubs.svg">
+      <publishTime>02/18/2019 18:41:55</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:31:49</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:43:48</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:32:20</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Hearts.svg">
+      <publishTime>02/18/2019 18:44:48</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:32:39</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Spades.svg">
+      <publishTime>02/18/2019 18:46:11</publishTime>
+    </File>
+    <File Include="Content/Cards/Ace_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:33:30</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Clubs.svg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:33:54</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:49:53</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:34:12</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Hearts.svg">
+      <publishTime>02/18/2019 18:50:42</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:34:28</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Spades.svg">
+      <publishTime>02/18/2019 18:51:24</publishTime>
+    </File>
+    <File Include="Content/Cards/Jack_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:34:51</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Clubs.svg">
+      <publishTime>02/18/2019 18:57:46</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:35:07</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:58:35</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:35:26</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Hearts.svg">
+      <publishTime>02/18/2019 18:59:20</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:35:57</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Spades.svg">
+      <publishTime>02/18/2019 19:00:06</publishTime>
+    </File>
+    <File Include="Content/Cards/King_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:38:57</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Clubs.svg">
+      <publishTime>02/18/2019 18:53:22</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Clubs_anim.svg">
+      <publishTime>03/04/2019 22:39:30</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Diamonds.svg">
+      <publishTime>02/18/2019 18:54:19</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Diamonds_anim.svg">
+      <publishTime>03/04/2019 22:39:55</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Hearts.svg">
+      <publishTime>02/18/2019 18:54:57</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Hearts_anim.svg">
+      <publishTime>03/04/2019 22:40:19</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Spades.svg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Content/Cards/Queen_of_Spades_anim.svg">
+      <publishTime>03/04/2019 22:41:05</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_0.svg">
+      <publishTime>02/18/2019 17:46:02</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_0_anim.svg">
+      <publishTime>02/18/2019 17:46:02</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_1.svg">
+      <publishTime>02/18/2019 17:53:37</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_10.svg">
+      <publishTime>02/18/2019 18:52:09</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_10_anim.svg">
+      <publishTime>02/18/2019 18:52:09</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_11.svg">
+      <publishTime>02/18/2019 18:56:49</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_11_anim.svg">
+      <publishTime>02/18/2019 18:56:49</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_12.svg">
+      <publishTime>02/18/2019 19:00:57</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_12_anim.svg">
+      <publishTime>02/18/2019 19:00:57</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_13.svg">
+      <publishTime>02/18/2019 19:01:54</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_13_anim.svg">
+      <publishTime>02/18/2019 19:01:54</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_14.svg">
+      <publishTime>02/18/2019 19:02:36</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_14_anim.svg">
+      <publishTime>02/18/2019 19:02:36</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_15.svg">
+      <publishTime>02/18/2019 19:03:21</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_15_anim.svg">
+      <publishTime>02/18/2019 19:03:21</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_16.svg">
+      <publishTime>02/18/2019 19:03:56</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_16_anim.svg">
+      <publishTime>02/18/2019 19:03:56</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_17.svg">
+      <publishTime>02/18/2019 19:04:34</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_17_anim.svg">
+      <publishTime>02/18/2019 19:04:34</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_18.svg">
+      <publishTime>02/18/2019 19:05:14</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_18_anim.svg">
+      <publishTime>02/18/2019 19:05:14</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_19.svg">
+      <publishTime>02/18/2019 19:06:04</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_19_anim.svg">
+      <publishTime>02/18/2019 19:06:04</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_1_anim.svg">
+      <publishTime>02/18/2019 17:53:37</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_2.svg">
+      <publishTime>02/18/2019 18:00:11</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_2_anim.svg">
+      <publishTime>02/18/2019 18:00:11</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_3.svg">
+      <publishTime>02/18/2019 18:07:33</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_3_anim.svg">
+      <publishTime>02/18/2019 18:07:33</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_4.svg">
+      <publishTime>02/18/2019 18:15:19</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_4_anim.svg">
+      <publishTime>02/18/2019 18:15:19</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_5.svg">
+      <publishTime>02/18/2019 18:25:16</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_5_anim.svg">
+      <publishTime>02/18/2019 18:25:16</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_6.svg">
+      <publishTime>02/18/2019 18:30:04</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_6_anim.svg">
+      <publishTime>02/18/2019 18:30:04</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_7.svg">
+      <publishTime>02/18/2019 18:34:48</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_7_anim.svg">
+      <publishTime>02/18/2019 18:34:48</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_8.svg">
+      <publishTime>02/18/2019 18:39:34</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_8_anim.svg">
+      <publishTime>02/18/2019 18:39:34</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_9.svg">
+      <publishTime>02/18/2019 18:47:40</publishTime>
+    </File>
+    <File Include="Content/Cards/skin_9_anim.svg">
+      <publishTime>02/18/2019 18:47:40</publishTime>
+    </File>
+    <File Include="Content/loading.css">
+      <publishTime>03/17/2019 13:37:35</publishTime>
+    </File>
+    <File Include="Content/media.css">
+      <publishTime>03/19/2019 23:30:15</publishTime>
+    </File>
+    <File Include="Content/ouroboros.svg">
+      <publishTime>03/16/2019 17:42:10</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/17/2019 20:03:47</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/12/2018 14:42:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/12/2018 14:42:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/12/2018 14:42:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/12/2018 14:42:08</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/12/2018 14:39:55</publishTime>
+    </File>
+    <File Include="Scripts/animation.js">
+      <publishTime>02/15/2019 22:27:15</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/12/2018 14:42:08</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/12/2018 14:42:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/12/2018 14:42:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/12/2018 14:42:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/12/2018 14:42:09</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.3.0.js">
+      <publishTime>07/12/2018 14:57:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.3.0.min.js">
+      <publishTime>07/12/2018 14:57:07</publishTime>
+    </File>
+    <File Include="Scripts/Main.js">
+      <publishTime>07/23/2018 00:22:03</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>07/12/2018 14:42:10</publishTime>
+    </File>
+    <File Include="Scripts/snabbt.min.js">
+      <publishTime>03/09/2019 20:49:41</publishTime>
+    </File>
+    <File Include="Scripts/util.js">
+      <publishTime>03/21/2019 00:55:50</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/23/2019 15:53:35</publishTime>
+    </File>
+    <File Include="Views/Home/NewIndex.cshtml">
+      <publishTime>03/03/2019 17:30:50</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/12/2018 14:42:04</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/12/2018 14:39:55</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/12/2018 14:42:03</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/23/2019 15:55:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

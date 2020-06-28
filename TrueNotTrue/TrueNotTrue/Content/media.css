@@ -1,0 +1,131 @@
+﻿@media only screen and (min-width : 640px) {
+    /*--------------Position*/
+    body {
+        overflow: hidden;
+        
+    }
+
+    .enemy, .field, .player, .offtable {
+        text-align: center;
+        height: 30vh;
+    }
+
+    .player {
+        margin-top: 20px;
+    }
+
+    .container_btn {
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        margin-top: -110px;
+    }
+
+    .trust, .no_trust, .pass_btn {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        color: #71121C;
+        cursor: pointer;
+        text-shadow: #1E1E1E 2px 2px 1px;
+        display: block;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .row {
+        width: 90vw;
+    }
+
+    /*--------------Buttons*/
+    .trust:hover, .no_trust:hover, .pass_btn:hover {
+        text-decoration: none;
+        color: #FF8D40;
+    }
+
+    .pass_btn {
+        font-size: 50px;
+        color: black;
+    }
+
+    .disable_pass, .disable_pass:hover {
+        color: #8E8F8F;
+    }
+
+    /*--------------Cards*/
+    .card, img {
+        cursor: pointer;
+        height: 100px;
+        width: 72px;
+    }
+
+    .anim_getting_card {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 150px;
+        width: 107px;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        display: none;
+    }
+
+    .player .card:hover {
+        -webkit-transform: translate(0,-120px);
+        -o-transform: translate(0,-120px);
+        -moz-transform: translate(0,-120px);
+        -ms-transform: translate(0,-120px);
+        cursor: pointer;
+    }
+
+    .field img {
+        height: 220px;
+        width: 149px;
+    }
+
+    /*--------------Dropdown*/
+    .dropdown_w_count {
+        position: absolute;
+        right: 30%;
+        top: 30%;
+        display: none;
+        color: black;
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .to_sale, .count_cards {
+        font-size: 25px;
+        color: #71121C;
+        display: inline-block;
+    }
+
+    .to_sale {
+        color: black;
+    }
+
+    .dropdown {
+        list-style: none;
+    }
+
+    .dropdown_el:hover {
+        cursor: pointer;
+        color: #71121C;
+    }
+
+    #null {
+        cursor: default;
+        color: black;
+    }
+    /*--------------Notify*/
+    .notify {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        color: #71121C;
+        margin-left: 30px
+    }
+
+    .increase_span {
+        font-size: 69px;
+    }
+}

@@ -1,0 +1,270 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = null;
+    Random r = new Random();
+    var w = r.Next(1, 13);
+}
+<html>
+<head>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/media.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/animate.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/loading.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Trust or no trust</title>
+    <link rel="shortcut icon" href="~/Content/favicon.jpg" type="image/jpg">
+</head>
+<body>
+
+    <div class="fade modal" id="loading" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <h1>Поиск противника</h1>
+                    <div class="cssload-loader">
+                        <div class="cssload-inner cssload-one"></div>
+                        <div class="cssload-inner cssload-two"></div>
+                        <div class="cssload-inner cssload-three"></div>
+                    </div>
+                    @*<h2 class="toggle_rules">Правила игры "Верю-не-верю"</h2>*@
+                    <a class="rules_btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Правила игры
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card-body">
+                            <p>Цель игры — избавиться от своих карт.</p> Заходящий игрок кладёт на стол 1-4 карты в закрытом виде (рубашкой вверх) и называет какое-нибудь достоинство карт.
+                            Например, «десятки». Этим он утверждает, что все карты, которые он только что положил, являются десятками. Следующий игрок имеет три возможности:
+                            <ul>
+                                <li>Добавить на стол 1-4 карты (не обязательно столько же, сколько положил предыдущий игрок), объявив их тоже десятками.</li>
+                                <li>Сказать «верю»</li>
+                                <li>Сказать «не верю»</li>
+                            </ul>
+                            Если игрок добавил карты, то ход переходит к следующему игроку, и следующий имеет вышеназванные три возможности.
+                            Иначе для проверки вскрываются карты, положенные предыдущим игроком. Карты, положенные до этого, не проверяются. Если игрок:
+                            <ul>
+                                <li>сказал «верю» и угадал (то есть проверяемая/ые карты действительно утверждаемого достоинства), то все карты, лежащие к этому моменту на столе, уходят в отбой;</li>
+                                <li>сказал «верю» и не угадал, то все карты, лежащие к этому моменту на столе, он забирает себе (наказание за доверчивость);</li>
+                                <li>сказал «не верю» и при проверке выявилась ложь, то все карты, лежащие к этому моменту на столе, забирает предыдущий игрок — тот, чьи карты проверялись (наказание за обман);</li>
+                                <li>сказал «не верю», но проверка не показала обмана, то все карты, лежащие к этому моменту на столе, он забирает себе (наказание за подозрительность).</li>
+                            </ul>
+                            <p>Проигрывает тот, у кого остались карты.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="enemy col-md-12">
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+    </div>
+
+    <div class="row">
+        <div class="notify col-md-1"></div>
+
+        <div class="field col-md-11"></div>
+
+        <div class="container_btn">
+            <a class="trust">Trust</a>
+            <a class="pass_btn">Pass</a>
+            <a class="no_trust">No trust</a>
+            <div class="waiting_opponent">
+                Opponent`s pass
+            </div>
+        </div>
+
+        <div class="offtable col-md-4"></div>
+
+    </div>
+
+    <div class="dropdown_w_count">
+        <p class="count_cards"></p>
+        <p class="to_sale"></p>
+        <ul class="dropdown">
+            <li class="dropdown_el" id="null">To sale</li>
+            <li class="dropdown_el" id="2">2</li>
+            <li class="dropdown_el" id="3">3</li>
+            <li class="dropdown_el" id="4">4</li>
+            <li class="dropdown_el" id="5">5</li>
+            <li class="dropdown_el" id="6">6</li>
+            <li class="dropdown_el" id="7">7</li>
+            <li class="dropdown_el" id="8">8</li>
+            <li class="dropdown_el" id="9">9</li>
+            <li class="dropdown_el" id="10">10</li>
+            <li class="dropdown_el" id="Ace">Ace</li>
+            <li class="dropdown_el" id="Jack">Jack</li>
+            <li class="dropdown_el" id="King">King</li>
+            <li class="dropdown_el" id="Queen">Queen</li>
+        </ul>
+    </div>
+
+    <div class="container_btn_refresh">
+        <span class="AFK">Is your opponent AFK?</span>
+        <br />
+        <a class="btn_refresh">Refresh game</a>
+    </div>
+
+
+
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+    <span class="anim_getting_card"><img /></span>
+
+
+
+    <div class="player col-md-12">
+
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+        <span><img class="card" /></span>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    @*<h2>Чат-комната</h2>
+
+        <div class="main">
+            <div id="loginBlock">
+                Введите логин:<br />
+                <input id="txtUserName" type="text" />
+                <input id="btnLogin" type="button" value="Войти" />
+            </div>
+            <div id="chatBody">
+                <div id="header"></div>
+                <div id="inputForm">
+                    <input type="text" id="message" />
+                    <input type="button" id="sendmessage" value="Отправить" />
+                </div>
+                <div id="chatroom"></div>
+
+                <div id="chatusers">
+                    <p><b>Все пользователи</b></p>
+                </div>
+            </div>
+            <input id="hdId" type="hidden" />
+            <input id="username" type="hidden" />
+            <div class="lk">lk</div>
+        </div>*@
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <!--Ссылка на библиотеку SignalR -->
+    <script src="~/Scripts/jquery.signalR-2.3.0.min.js"></script>
+    <!--Ссылка на автоматически сгенерированный скрипт хаба SignalR -->
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/snabbt.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/util.js"></script>
+    @*<script src="~/Scripts/animation.js"></script>*@
+    @*<script src="~/Scripts/Main.js"></script>*@
+</body>
+</html>

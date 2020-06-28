@@ -1,0 +1,400 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1450px) {
+    .li {
+        width: 22px;
+        height: 22px;
+        border: 2px solid #7e8082;
+    }
+
+    .button_yellow {
+        width: 220px;
+        height: 75px;
+        font-size: 37px;
+    }
+}
+
+
+@media only screen and (max-width : 1360px) {
+    .slider_wrap h1 {
+        font-size: 150px;
+    }
+
+    .button_yellow {
+        width: 220px;
+        height: 70px;
+        font-size: 37px;
+    }
+
+    .li {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #7e8082;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    header .menu li {
+        font-size: 18px;
+        padding: 20px 30px;
+        display: inline-block;
+    }
+
+    .slider_wrap h1 {
+        font-size: 120px;
+    }
+
+    .button_yellow {
+        width: 220px;
+        height: 70px;
+        font-size: 37px;
+    }
+
+    .li {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #7e8082;
+    }
+
+    button {
+        height: 60px;
+        width: 200px;
+        border-radius: 7px;
+        border: none;
+        font-size: 26px;
+        margin: 30px 15px;
+    }
+
+    .house_3, .house_4 {
+        width: 100%;
+    }
+
+    .houses .sm_btn {
+        font-size: 20px;
+    }
+
+    .grid img {
+        width: 100%;
+    }
+
+    .product_btn_align {
+        text-align: center;
+        float: none;
+    }
+
+    .btn_product {
+        margin: auto;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    header .menu li {
+        font-size: 15px;
+        padding: 20px 15px;
+        display: inline-block;
+    }
+
+    .slider_wrap h1 {
+        font-size: 80px;
+    }
+
+    .button_yellow {
+        width: 160px;
+        height: 60px;
+        font-size: 26px;
+        margin: 10px auto;
+    }
+
+    .link_green {
+        margin-bottom: 35px;
+    }
+
+    .col {
+        border: 1px solid transparent;
+    }
+
+    .navigation_btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .houses h2 {
+        margin: 30px 0 30px 0;
+    }
+
+    .reverse_1 {
+        order: 2;
+    }
+
+    .reverse {
+        order: 1;
+    }
+
+    #reviews_back {
+        max-width: 300px;
+    }
+
+    .see {
+        font-size: 14px;
+    }
+
+    .non_see {
+        font-size: 14px;
+    }
+
+    .li {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #7e8082;
+    }
+
+    .inp_row {
+        display: block;
+        margin: 25px auto;
+    }
+
+    .descr_text {
+        margin-left: 0;
+    }
+
+    .description ul {
+        text-align: left;
+        margin: 10px auto;
+        display: inline-block;
+    }
+
+    .extend_grid {
+        padding-bottom: 60px;
+    }
+
+    .extend_grid_sec {
+        padding-bottom: 10px;
+    }
+
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header .menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #86929B;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    header .container {
+        padding: 0;
+    }
+
+    header .menu li {
+        display: none;
+    }
+
+    header .menu_ico {
+        display: block;
+    }
+
+    .photo {
+        font-size: 10px;
+    }
+
+    .lg {
+        display: none;
+    }
+
+    .sm {
+        display: block;
+    }
+
+    .slider_wrap h1 {
+        font-size: 60px;
+        margin: 3px;
+    }
+
+    .button_yellow {
+        width: 120px;
+        height: 50px;
+        font-size: 22px;
+        margin: 10px auto;
+    }
+
+    .li {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #7e8082;
+    }
+
+    .circle_button {
+        margin-left: -27px;
+        bottom: 0;
+    }
+
+    .popup-back {
+        height: 400px;
+        width: 400px;
+        margin: -200px;
+    }
+
+    .light .row {
+        flex-basis: 0;
+    }
+
+    .navigation_btn {
+        justify-content: center;
+    }
+
+    .houses h2 {
+        margin: 10px 0 30px 0;
+    }
+
+    .houses img {
+        width: 100%;
+    }
+
+    .sm_btn {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .grid button {
+        height: 55px;
+        width: 170px;
+    }
+
+    #reviews_back:last-child {
+        display: none;
+    }
+}
+
+@media only screen and (max-wigth : 630px) {
+    .li {
+        width: 8px;
+        height: 8px;
+        border: 1px solid #7e8082;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .slider_wrap h1 {
+        font-size: 30px;
+        margin: 3px;
+    }
+
+    .button_yellow {
+        width: 90px;
+        height: 40px;
+        font-size: 18px;
+        margin: 5px auto;
+    }
+
+    .yellow_line {
+        height: 3px;
+        width: 100px;
+    }
+
+    .photo {
+        font-size: 7px;
+    }
+
+    .green p {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .green h2 {
+        font-size: 20px;
+    }
+
+    .link_green {
+        margin-bottom: 15px;
+    }
+
+    .green img {
+        margin-top: 35px;
+    }
+
+    .houses img {
+        width: 100%;
+    }
+
+    .houses h1 {
+        font-size: 45px;
+    }
+
+    .navigation_btn {
+        justify-content: center;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .houses .sm_btn {
+        font-size: 13px;
+        height: 40px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .slider_wrap h1 {
+        font-size: 20px;
+        margin: 3px;
+    }
+
+    .button_yellow {
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+        margin: 5px auto;
+    }
+
+    .photo {
+        font-size: 5px;
+    }
+
+    .popup-back {
+        height: 100px;
+        width: 100px;
+        margin: -50px;
+    }
+
+    .navigation_btn {
+        justify-content: center;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}

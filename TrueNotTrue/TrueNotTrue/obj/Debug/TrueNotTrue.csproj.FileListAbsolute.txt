@@ -1,0 +1,178 @@
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll.config
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.pdb
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Web.Infrastructure.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Owin.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CoreCompileInputs.cache
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.pdb
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\EntityFramework.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\EntityFramework.SqlServer.dll
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\EntityFramework.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\bin\EntityFramework.SqlServer.xml
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.InitialCreate.resources
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.GenerateResource.Cache
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration.resources
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration1.resources
+c:\users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration2.resources
+C:\Users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration3.resources
+C:\Users\timur\source\repos\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csprojResolveAssemblyReference.cache
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll.config
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.pdb
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.SqlServer.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Owin.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.SqlServer.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.xml
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csprojResolveAssemblyReference.cache
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.InitialCreate.resources
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration.resources
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration1.resources
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration2.resources
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration3.resources
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.GenerateResource.cache
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CoreCompileInputs.cache
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CopyComplete
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.dll
+C:\Users\MidGo\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.pdb
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll.config
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.pdb
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.SqlServer.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Owin.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.SqlServer.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.xml
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csprojResolveAssemblyReference.cache
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.InitialCreate.resources
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration.resources
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration1.resources
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration2.resources
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.AddCompanyMigration3.resources
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.GenerateResource.cache
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CoreCompileInputs.cache
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CopyComplete
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.dll
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.pdb
+C:\Users\MidGo\Desktop\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.TrueNotTrueDataBase.resources
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CoreCompileInputs.cache
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.pdb
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll.config
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\TrueNotTrue.pdb
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Web.Infrastructure.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Owin.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.dll
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\EntityFramework.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Microsoft.Owin.Security.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\Newtonsoft.Json.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Razor.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Deployment.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Webpages.Razor.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Helpers.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\bin\System.Web.Mvc.xml
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.CopyComplete
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csprojAssemblyReference.cache
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.Migrations.TrueNotTrueDataBase.resources
+F:\_All projects\Web Projects\TrueNotTrue\TrueNotTrue\TrueNotTrue\obj\Debug\TrueNotTrue.csproj.GenerateResource.cache

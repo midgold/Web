@@ -1,0 +1,15 @@
+
+#RewriteEngine On
+#RewriteRule /css/([^\/]+).css$ css/$1.css [L]
+#RewriteCond %{REQUEST_FILENAME} !=f
+#RewriteCond %{REQUEST_FILENAME} !=d
+
+# Если указан только раздел
+#RewriteRule ^([a-zA-Z0-9_-]+)[/]?$ /?url=$1 [QSA,L]
+# Если указан раздел и id
+#RewriteRule ^([a-zA-Z0-9_-]+)[/](\d+)[/]?$ /?url=$1&id=$2 [QSA,L]
+
+
+
+#RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+AddDefaultCharset utf-8

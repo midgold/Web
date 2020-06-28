@@ -1,0 +1,212 @@
+﻿@media only screen and (min-width : 768px) {
+    /*--------------Position*/
+    body {
+        overflow: hidden;
+        font-family: 'Roboto', sans-serif;
+    }
+    .enemy, .player, .container_btn {
+        opacity: 0;
+    }
+
+    h1 {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        text-shadow: #1E1E1E 1px 1px 1px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        margin: 7%
+    }
+
+    p {
+        color: #71121C;
+    }
+
+    a {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 20px;
+        font-weight: bold;
+        color: #71121C;
+       
+    }
+
+        a:hover {
+            color: #FF8D40;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        a:focus {
+            text-decoration: none;
+            color: #71121C;
+        }
+
+    .enemy, .field, .player, .offtable {
+        text-align: center;
+        height: 30vh;
+    }
+
+    .player {
+        margin-top: 20px;
+    }
+
+    .container_btn {
+        position: absolute;
+        right: 10%;
+        top: 50%;
+        margin-top: -140px;
+    }
+
+    .trust, .no_trust, .pass_btn {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        color: #71121C;
+        font-size: 70px;
+        cursor: pointer;
+        text-shadow: #1E1E1E 3px 3px 1px;
+        display: block;
+        line-height: 70px;
+    }
+
+    .row {
+        width: 90vw;
+    }
+
+    /*--------------Buttons*/
+    .trust:hover, .no_trust:hover, .pass_btn:hover {
+        text-decoration: none;
+        color: #FF8D40;
+    }
+
+    .pass_btn {
+        font-size: 80px;
+        color: black;
+       
+    }
+
+    .disable_pass, .disable_pass:hover {
+        color: #8E8F8F;
+        pointer-events: none;
+    }
+
+    /*--------------Cards*/
+    .card, img {
+        cursor: pointer;
+        height: 150px;
+        width: 107px;      
+    }
+
+    .anim_getting_card {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 150px;
+        width: 107px;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        display: none;
+    }
+
+    .player .card:hover {
+        -webkit-transform: translate(0,-120px);
+        -o-transform: translate(0,-120px);
+        -moz-transform: translate(0,-120px);
+        -ms-transform: translate(0,-120px);
+        cursor: pointer;
+    }
+
+    .field img {
+        height: 250px;
+        width: 179px;
+    }
+
+    /*--------------Dropdown*/
+    .dropdown_w_count {
+        position: absolute;
+        right: 30%;
+        top: 30%;
+        display: none;
+        color: black;
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .to_sale, .count_cards {
+        font-size: 35px;
+        color: #71121C;
+        display: inline-block;
+    }
+
+    .to_sale {
+        color: black;
+    }
+
+    .dropdown {
+        list-style: none;
+    }
+
+    .dropdown_el:hover {
+        cursor: pointer;
+        color: #71121C;
+    }
+
+    #null {
+        cursor: default;
+        color: black;
+    }
+    /*--------------Notify*/
+    .notify {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 80px;
+        font-weight: bold;
+        color: #71121C;
+        margin-left: 40px
+    }
+
+    .increase_span {
+        font-size: 99px;
+    }
+
+    /*--------------Refresh game*/
+    .container_btn_refresh {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: none;
+        font-size: 40px;
+        margin: -102px 0 0 -207px;
+        text-align: center;
+        z-index: 3;
+    }
+    .btn_refresh {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 60px;
+        font-weight: bold;
+        color: #71121C;
+    }
+        .btn_refresh:hover {
+            color: #FF8D40;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    /*--------------*/
+    .waiting_opponent {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        display: none;
+        font-size: 40px;
+        font-weight: bold;
+        color: #71121C;
+    }
+
+    /*--------------Loading modal*/
+    .modal {
+        text-align: center;
+    }
+    .card-body {
+        text-align: left;
+    }
+    .rules_btn {
+        text-decoration: underline dashed;
+    }
+}
